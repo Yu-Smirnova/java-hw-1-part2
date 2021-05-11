@@ -7,15 +7,17 @@
 На тестирование затрачено: 1 час
 
 В результате тестирования выявлены следующие дефекты:
-* https://github.com/Yu-Smirnova/java-hw-1-part2/issues/1#issue-886188723
-* https://github.com/Yu-Smirnova/java-hw-1-part2/issues/2#issue-886201067
+* [Валидация невалидного ключа](https://github.com/Yu-Smirnova/java-hw-1-part2/issues/1#issue-886188723)
+* [Валидные ключи отмечаются как невалидные](https://github.com/Yu-Smirnova/java-hw-1-part2/issues/2#issue-886201067)
 
 ## Описание процесса тестирования
 
-В качестве тестовых данных использовались данные:  
-* Инструкция по установке OpenJDK11 (https://github.com/netology-code/javaqa-homeworks/blob/master/intro/openjdk11-manual.md), ожидаемый результата - OpenJDK11 устанавиливается под ОС Windows 10, 64-разрядная, в соответствии с инструкцией
-* Приложение KeyValidator, ожидаемый результат - приложение KeyValidator запускается и совместимо с Java 11
-* Ключи для проверки https://github.com/netology-code/javaqa-homeworks/blob/master/intro/user-manual.md#%D0%BA%D0%BB%D1%8E%D1%87%D0%B8-%D0%B4%D0%BB%D1%8F-%D0%BF%D1%80%D0%BE%D0%B2%D0%B5%D1%80%D0%BA%D0%B8:
+В процессе тестирования использовались следующие артефакты:
+* [Инструкция по установке OpenJDK11](https://github.com/netology-code/javaqa-homeworks/blob/master/intro/openjdk11-manual.md)
+* Приложение KeyValidator
+
+В качестве тестовых данных использовались данные:
+* [Ключи для проверки](https://github.com/netology-code/javaqa-homeworks/blob/master/intro/user-manual.md#%D0%BA%D0%BB%D1%8E%D1%87%D0%B8-%D0%B4%D0%BB%D1%8F-%D0%BF%D1%80%D0%BE%D0%B2%D0%B5%D1%80%D0%BA%D0%B8):
  * 8f05e6a7-70e9-33d7-bfe7-b19eae0d8998, ожидаемый результат - ОК
  * 80b427f8-92cd-3aae-ba04-3927fbe17c6, ожидаемый результат - ОК
  * b295bc63-9f03-3b4b-af80-969b39f8c262, ожидаемый результат - ОК
